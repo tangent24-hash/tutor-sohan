@@ -7,6 +7,7 @@ import {
 import auth from "../../firebase.init";
 import SocialLogin from "./SocialLogin";
 import Loading from "../Shared/Loading";
+import PageTitle from "../Shared/PageTitle";
 
 const Register = () => {
   const [agree, setAgree] = useState(false);
@@ -50,13 +51,14 @@ const Register = () => {
 
     await createUserWithEmailAndPassword(email, password);
     await updateProfile({ displayName: name });
-    setAgree(false)
+    setAgree(false);
   };
 
   return (
     <div className="register-form row m-3">
       <div className="col-12 col-md-3"></div>
       <div className="col-12 col-md-6">
+      <PageTitle title="Register"></PageTitle>
         <h2 style={{ textAlign: "center" }}>Please Register</h2>
         <form onSubmit={handleRegister}>
           <div className="mb-3">
@@ -116,20 +118,6 @@ const Register = () => {
               Accept Terms and Conditions
             </label>
           </div>
-          {/* <div className="mb-3 form-check">
-            <input
-              onClick={() => setAgree(!agree)}
-              type="checkbox"
-              name="terms"
-              id="terms"
-            />
-            <label
-              className={`ps-2 ${agree ? "" : "text-danger"}`}
-              htmlFor="terms"
-            >
-              Accept Terms and Conditions
-            </label>
-          </div> */}
           <div className="text-center">
             <input
               disabled={!agree}
