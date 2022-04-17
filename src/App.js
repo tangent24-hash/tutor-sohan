@@ -12,8 +12,7 @@ import Footer from "./Pages/Shared/Footer";
 
 function App() {
   return (
-    <div>
-      <div>
+      <div className="bg-light">
         <Header></Header>
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
@@ -32,8 +31,7 @@ function App() {
           <Route path="*" element={<NotFound></NotFound>}></Route>
         </Routes>
         <Footer></Footer>
-      </div>
-    </div>
+        </div>
   );
 }
 
