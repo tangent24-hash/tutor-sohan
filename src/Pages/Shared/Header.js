@@ -41,13 +41,15 @@ const Header = () => {
             <li className="nav-item">
               {user ? (
                 <button
-                  className="btn btn-link text-white text-decoration-none"
+                  className="btn nav-link text-decoration-none"
                   onClick={handleSignOut}
                 >
                   sign out
                 </button>
               ) : (
-                <a className="nav-link" href="/login">Login</a>
+                <a className="nav-link" href="/login">
+                  Login
+                </a>
               )}
             </li>
           </ul>
