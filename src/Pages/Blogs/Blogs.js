@@ -1,8 +1,10 @@
 import React from "react";
+import PageTitle from "../Shared/PageTitle";
 
 const Blogs = () => {
   return (
     <div className="row g-3 m-2">
+      <PageTitle title="Blogs"></PageTitle>
       <div className="col-12 col-md-4">
         <div class="card border-0">
           <div class="card-body">
@@ -45,9 +47,8 @@ const Blogs = () => {
             </h5>
             <p class="card-text">
               Here are many services which Firebase provides, Most useful of
-              them are: Cloud Firestore, Cloud Functions,
-              Hosting, Cloud Storage, Google Analytics, Predictions, Cloud
-              Messaging.
+              them are: Cloud Firestore, Cloud Functions, Hosting, Cloud
+              Storage, Google Analytics, Predictions, Cloud Messaging.
             </p>
           </div>
         </div>

@@ -3,28 +3,28 @@
         "id": 1,
         "name": "MATH",
         "price": "4500",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+        "description": "If you are a SSC or HSC student you can take math lessons from me.",
+        "img": "https://img.freepik.com/free-psd/top-view-numbers-rulers-mathematics_23-2148458903.jpg"
     },
     {
         "id": 2,
         "name": "PHYSICS",
         "price": "5000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/tY8dmnP/2.jpg"
+        "description": "Physics the study of matter, motion, energy, and force.Learn physics from me",
+        "img": "https://img.freepik.com/free-vector/physics-school-subject-concept_277904-10350.jpg"
     },
     {
         "id": 3,
         "name": "ICT",
         "price": "4000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+        "description": "ICT for class 11-12 students. Get preparation for HSC exam.",
+        "img": "https://img.freepik.com/free-vector/programming-software-flat-design-concept-illustration-people-characters_9209-5424.jpg?w=2000"
     },
     {
         "id": 4,
         "name": "ENGLISH",
         "price": "4000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/ZX2Cbkn/4.jpg"
+        "description": "I teach English for all grades in a interesting and fun way. Learn English today.",
+        "img": "https://img.freepik.com/free-vector/english-teacher-concept-illustration_114360-7477.jpg?w=2000"
     }
 ]

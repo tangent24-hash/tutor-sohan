@@ -82,7 +82,10 @@ const Login = () => {
               required
             />
           </Form.Group>
-          <Button variant="outline-primary w-50 mx-auto d-block mb-2" type="submit">
+          <Button
+            variant="outline-primary w-50 mx-auto d-block mb-2"
+            type="submit"
+          >
             Login
           </Button>
         </Form>

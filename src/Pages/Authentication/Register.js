@@ -58,7 +58,7 @@ const Register = () => {
     <div className="register-form row m-3">
       <div className="col-12 col-md-3"></div>
       <div className="col-12 col-md-6">
-      <PageTitle title="Register"></PageTitle>
+        <PageTitle title="Register"></PageTitle>
         <h2 style={{ textAlign: "center" }}>Please Register</h2>
         <form onSubmit={handleRegister}>
           <div className="mb-3">

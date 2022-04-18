@@ -1,8 +1,10 @@
 import React from "react";
+import PageTitle from "../Shared/PageTitle";
 
 const About = () => {
   return (
     <div class="card  border-0 m-5">
+      <PageTitle title="About me"></PageTitle>
       <div class="card-body text-center">
         <h5 class="card-title">Sohanur Rahman</h5>
         <p class="card-text">

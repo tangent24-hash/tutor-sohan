@@ -9,8 +9,8 @@ const Service = ({ service }) => {
     navigate(`/checkout`);
   };
   return (
-    <div class="card shadow">
-      <img src={img} class="card-img-top" alt={name} />
+    <div class="card shadow-sm border-0">
+      <img src={img} class="card-img-top" style={{height: 180}} alt={name} />
       <div class="card-body">
         <h5 class="card-title">{name}</h5>
         <p>Price: {price}</p>
