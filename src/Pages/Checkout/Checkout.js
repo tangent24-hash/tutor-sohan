@@ -1,7 +1,7 @@
 const Checkout = () => {
     return (
-        <div>
-            <h2>Please Checkout your booking</h2>
+        <div className="container text-center">
+            <h2>Thanks for your interest in learning with me</h2>
         </div>
     );
 };
