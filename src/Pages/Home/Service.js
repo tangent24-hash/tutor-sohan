@@ -9,13 +9,13 @@ const Service = ({ service }) => {
     navigate(`/checkout`);
   };
   return (
-    <div class="card shadow-sm border-0">
-      <img src={img} class="card-img-top" style={{height: 180}} alt={name} />
-      <div class="card-body">
-        <h5 class="card-title">{name}</h5>
+    <div className="card shadow-sm border-0">
+      <img src={img} className="card-img-top" style={{height: 180}} alt={name} />
+      <div className="card-body">
+        <h5 className="card-title">{name}</h5>
         <p>Price: {price}</p>
-        <p class="card-text">{description}</p>
-        <button onClick={() => navigateToCheckout()} class="btn btn-outline-primary">
+        <p className="card-text">{description}</p>
+        <button onClick={() => navigateToCheckout()} className="btn btn-outline-primary">
           Learn Lesson
         </button>
       </div>

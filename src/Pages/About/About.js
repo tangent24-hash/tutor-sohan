@@ -3,11 +3,11 @@ import PageTitle from "../Shared/PageTitle";
 
 const About = () => {
   return (
-    <div class="card  border-0 m-5">
+    <div className="card  border-0 m-5">
       <PageTitle title="About me"></PageTitle>
-      <div class="card-body text-center">
-        <h5 class="card-title">Sohanur Rahman</h5>
-        <p class="card-text">
+      <div className="card-body text-center">
+        <h5 className="card-title">Sohanur Rahman</h5>
+        <p className="card-text">
           I am a private tutor and I have been teaching for the last 4years. I
           expect and I give my 200% for student's bright future. My teaching
           method is flexible, changes depending on the student's interest.

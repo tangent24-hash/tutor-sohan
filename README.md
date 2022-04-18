@@ -1,4 +1,21 @@
-# Getting Started with Create React App
+# TUTOR SOHAN
+website link: (https://tutor-sohan.web.app/)
+
+## features
+* register with email and password
+* register with google account
+* login with google account
+* login with email and password
+* responsive
+* Protected routes
+
+## Technologies used in this project
+* React
+* React Bootstrap
+* Bootstrap
+* Firebase
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
